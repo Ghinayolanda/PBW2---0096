@@ -4,8 +4,8 @@
             <div class="col">
                 <form action="/buku" method="POST" enctype="multipart/form-data">
                     @csrf
-<form>
- <h1>Tambah Buku</h1>
+                    <form>
+                        <h1>Tambah Buku</h1>
                         <div class="mb-3">
                             <label for="judul" class="form-label">Judul</label>
                             <input type="text" class="form-control @error('judul') is-invalid @enderror"
@@ -47,7 +47,7 @@
                         <button type="submit" class="btn btn-primary">Submit</button>
 
                     </form>
- </div>
+            </div>
         </div>
     </div>
     <script>
